@@ -88,3 +88,7 @@ module.exports.logoutUser = (req, res) => {
     res.clearCookie('token').status(200).send({message: 'Logout Successful'})
 
 }
+
+module.exports.hello = (req, res) => {
+    res.send('hello world')
+}
