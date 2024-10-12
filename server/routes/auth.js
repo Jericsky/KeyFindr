@@ -9,6 +9,4 @@ router.post('/login', loginUser);
 
 router.post('/logout', logoutUser)
 
-router.get('/hello', hello)
-
 module.exports = router;
