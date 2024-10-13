@@ -55,14 +55,34 @@ nav{
         background-color: #fcf5f3;
         height: 100%;
 
-        @include md{
+        @include md {
             background-color: transparent;
-        }
-
-        a{
+            flex-direction: row; // Ensure the layout is in a row on medium screens
+            gap: 15px; // Reduced spacing for medium screens
+          }
+      
+          a {
             padding: 12px 24px;
             margin: 20px;
-        }
+      
+            @include md {
+              margin: 0; // Remove margin on medium screens for a tight layout
+            }
+          }
+
+        // @include md{
+        //     background-color: transparent;
+        // }
+
+        // a{
+        //     padding: 12px 24px;
+        //     margin: 20px;
+            
+
+        //     @include md{
+        //         margin: 40px;
+        //     }
+        // }
 
         .register{
             background-color: #5f6769;
