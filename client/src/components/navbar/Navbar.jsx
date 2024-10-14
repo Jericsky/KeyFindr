@@ -12,7 +12,7 @@ export default function Navbar() {
             <img src="/logo.png" alt="" />
             <span>KeyFindr</span>
           </a>
-          <Link to={'/'}>Home</Link>
+          <Link to={'/listing'}>Home</Link>
           <a href="/">About</a>
           <a href="/">Contact</a>
           <a href="/">Agents</a>
