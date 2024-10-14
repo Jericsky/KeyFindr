@@ -15,10 +15,12 @@ export default function ListPage() {
                     <Filter/>
                     {data.map(item => (
                         <ListCard key={item.id} item={item}/>
+                       
                     ))}
                     
 
                 </div>
+                
             </div>
 
             <div className="mapContainer">Map</div>

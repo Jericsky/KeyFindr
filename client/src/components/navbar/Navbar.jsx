@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './navbar.scss'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
 
@@ -11,7 +12,7 @@ export default function Navbar() {
             <img src="/logo.png" alt="" />
             <span>KeyFindr</span>
           </a>
-          <a href="/">Home</a>
+          <Link to={'/'}>Home</Link>
           <a href="/">About</a>
           <a href="/">Contact</a>
           <a href="/">Agents</a>

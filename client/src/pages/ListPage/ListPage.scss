@@ -1,13 +1,21 @@
+@import '../../responsive.scss';
+
 .listPage{
     display: flex;
     height: 100%;
 
     .listContainer{
         flex: 3;
-        background-color: aqua;
+        height: 100%;
 
         .wrapper{
-            padding-right: 50px;
+            height: 100%;
+            padding-right: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            overflow-y: scroll;
+            padding-bottom: 50px;
         }
     }
 
