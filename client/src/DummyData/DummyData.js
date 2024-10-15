@@ -7,8 +7,8 @@ export const listData = [
       "bathRooms": 3,
       "price": 1200000,
       "address": "123 Ocean Drive, Miami Beach, FL",
-      "latitude": 25.790654,
-      "longitude": -80.130045
+      "latitude": 34.1184,
+      "longitude": -118.3004
     },
     {
       "id": 2,
@@ -18,8 +18,8 @@ export const listData = [
       "bathRooms": 2,
       "price": 450000,
       "address": "456 Main Street, New York, NY",
-      "latitude": 40.712776,
-      "longitude": -74.005974
+      "latitude": 34.1016,
+      "longitude": -118.3406
     },
     {
       "id": 3,
@@ -40,8 +40,8 @@ export const listData = [
       "bathRooms": 4,
       "price": 950000,
       "address": "321 Country Road, Austin, TX",
-      "latitude": 30.267153,
-      "longitude": -97.743057
+      "latitude": 34.0639,
+      "longitude": -118.3597
     },
     {
       "id": 5,
@@ -54,6 +54,10 @@ export const listData = [
       "latitude": 34.025922,
       "longitude": -118.779757
     },
+
+    
+
+
     {
       "id": 6,
       "title": "Spacious 3-Bedroom Townhouse",
@@ -62,8 +66,8 @@ export const listData = [
       "bathRooms": 3,
       "price": 520000,
       "address": "654 River Road, Denver, CO",
-      "latitude": 39.739236,
-      "longitude": -104.990251
+      "latitude": 34.0101,
+      "longitude": -118.4965
     },
     {
       "id": 7,
@@ -73,8 +77,8 @@ export const listData = [
       "bathRooms": 1,
       "price": 320000,
       "address": "567 Broadway, San Francisco, CA",
-      "latitude": 37.774929,
-      "longitude": -122.419418
+      "latitude": 34.0784,
+      "longitude": -118.2399
     },
     {
       "id": 8,
@@ -95,8 +99,8 @@ export const listData = [
       "bathRooms": 2,
       "price": 1100000,
       "address": "456 Skyline Blvd, Seattle, WA",
-      "latitude": 47.606209,
-      "longitude": -122.332071
+      "latitude": 34.0780,
+      "longitude": -118.4741
     },
     {
       "id": 10,
